@@ -78,7 +78,7 @@ app.post('/image', (req, res) => {
         }
         })
         if (!found) {
-            res.status(400).json('not found');
+            res.status(400).json('entry not found');
         }
 })
 app.listen(3000, () => {
